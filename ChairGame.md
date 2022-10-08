@@ -8,8 +8,8 @@
   values are given to them.<br>You are given a task to find the minimum number of chairs required to play the game.
   
 # Constraints :
-  - 1 <= n <= 100000
-  - 0 <= left,right <=100000
+  - 1 $\leq$ n $\leq$ 100000.
+  - 1 $\leq$ left,right $\leq$ 100000.
     
 # Input :
   The first line contains a single integer n which represents the no. of persons.
@@ -21,27 +21,41 @@
 # Sample Test Cases :
   ## Example 1:
   ### Input :
+  ```
   3
   1 1
   1 1
   1 1
+  ```
   ### Output :
+  ```
   6
+  ```
   ## Example 2:
   ### Input :
+  ```
   4
   1 2
   2 1
   3 5
   5 3
+  ```
   ### Output :
+  ```
   15
+  ```
   ## Example 3 :
   ### Input :
+  ```
   1
   5 6
+  ```
   ### Output :
+  ```
   7
+  ```
   ## Explanation :
-  In the second sample we require two circles , the first two persons form a circle with 5 chairs and the next two
+  In the second sample we require two circles , the first two persons form a circle with 5  chairs and the next two
   persons form an another circle with 10 chairs.
+  ## Submission Rules:
+  - Expected Time Complexity - O(nlogn)

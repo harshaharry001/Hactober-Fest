@@ -20,7 +20,7 @@
     11
 ###  Explanation: The triangle looks like:
   4 1 8 3 <br>
-   6 5 7 <br>
-    3 4 <br>
-     2 <br>
+  &nbsp;6 5 7 <br>
+  &nbsp;&nbsp;3 4 <br>
+  &emsp;2 <br>
   The minimum path sum from top to bottom is 1 + 5 + 3 + 2 = 11 (underlined above).
